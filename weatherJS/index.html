@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Weather</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <div class="location">
+         <h1 class="location-timezone"></h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+     </div>
+     <div class="temperature">
+    <div class="degree-section">
+     <h2 class="temperature-degree"></h2>
+     <span>F</span>
+    </div>
+     <div class="temperature-description"></div>
+     </div>
+     <div class="week-area">
+     <div class="week">
+         <div class="week-description"></div>
+         <canvas class="icon-week" width="85" height="90"></canvas>
+     </div>
+    </div>
+     <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+     <script src="skycons.js"></script>
+    <script src="app.js"></script>
+ </body>
+ </html>
